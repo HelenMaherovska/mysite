@@ -1,20 +1,16 @@
-
 .wrapper
 {
     max-width: 1000px;
-    margin: 0 auto;
-    background-color: darkcyan;
-    /*background: -webkit-radial-gradient(30px 20px, cover, cyan, darkcyan);*/
-
-
+    margin: 25px auto;
+    background-color: black;
+    background: -webkit-radial-gradient(30px 20px, cover, black, black);
 }
 
 header 
 {
     font-family: "Lato";
-    /*background-color: darkcyan;*/
     height: 60px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .container 
@@ -23,24 +19,16 @@ header
     margin: 0 auto;
 }
 
-/*.bg */
-/*{*/
-/*    height: 359px;*/
-/*    background: url(bg.jpg);*/
-/*    background-size: 1000px 359px;*/
-/*    opacity: 0.6;*/
-/*}*/
-
 #fon_wrapper
 {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .fon 
 {
-    height: 359px;
-    background: url(bg.jpg);
-    background-size: 1000px 359px;
+    height: 660px;
+    background: url(Desk+Photo.jpg);
+    background-size: 1000px 660px;
 }
 
 #logo
@@ -48,27 +36,29 @@ header
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px white;
+    text-decoration: none;
     color: white;
     float: left;
 }
 #logo:hover
 {
-    color: yellow;
+    color: deeppink;
     text-shadow: 1px 1px 3px white;
+    cursor: pointer;
 }
 
 h1
 {
-    font-family: cursive;
+    font-family: "Lato";
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px white;
     text-align: right;
     line-height: 38px;
     color: white;
     position: relative;
-    top: -250px;
+    top: -450px;
     right: 15px;
     opacity: 0.85;
     
@@ -85,27 +75,29 @@ h1
 {
     font-family: serif;
     font-size: 20px;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 3px white;
     text-align: center;
     color: white;
-    line-height: 20px;
+    line-height: 28px;
     
 }
 
 nav > a:hover
 {
-    color: yellow;
-    text-shadow: 2px 2px 3px white;
+    color: deeppink;
+    text-shadow: 1px 1px 3px white;
 }
 
 
 #footer_logo
 {
     font-family: serif;
-    font-size: 15px;
-    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px white;
     text-align: center;
     color: white;
+    position: relative;
+    top: -10px;
 }
 
 nav > a
@@ -113,11 +105,12 @@ nav > a
     font-size: 20px;
     margin-left: 10px;
     text-decoration: none;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px white;
     color: white;
     clear: both;
     position: relative;
     left: 450px;
     top: 15px;
+    overflow: hidden;
     
 }
